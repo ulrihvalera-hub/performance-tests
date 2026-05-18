@@ -6,7 +6,7 @@ import httpx
 client = httpx.Client(
     base_url="http//localhost:8003",
     timeout=100,
-    headrs={"Autorization": "Bearer..."}
+    headers={"Authorization": "Bearer..."}
 )
 
 payload = {
